@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="box">
+        <h2>Password Generator</h2>
+
+        <input type="text" id="Word" placeholder="Enter Key word">
+        <br> <br>
+
+        <input type="text" name="" placeholder="Password will show here" id="password" readonly>
+        <div class="button-container">
+            <button id="button" class="btn1" onclick="generatePassword()">Generate Password</button>
+            <button id="button" class="btn2" onclick="copyPassword()">Copy</button>
+        </div>
+    </div>
 </body>
+
 </html>
