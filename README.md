@@ -21,3 +21,7 @@ To run this project, you need:
 - A modern web browser (e.g., Chrome, Firefox, Safari).
 - Basic knowledge of HTML, CSS, and JavaScript (optional for usage).
 
+### Contribution
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/SheikhSarim/Password-Generator.git
